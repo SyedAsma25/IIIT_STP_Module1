@@ -1,0 +1,142 @@
+# ================================
+# 🧠 IIIT STP – Machine Learning Module 1
+# .gitignore Configuration
+# Author: Syed Asma
+# ================================
+
+# ----------------------------
+# 1️⃣ OS / Environment Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# 2️⃣ Python Cache & Virtual Environments
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+.python-version
+
+# ----------------------------
+# 3️⃣ Jupyter & Colab Notebooks
+# ----------------------------
+# Temporary notebook checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.checkpoint.ipynb
+
+# Colab metadata
+*.colab
+*.ipynb_save
+*.ipynb_checkpoints
+
+# ----------------------------
+# 4️⃣ Data / Datasets / Outputs
+# ----------------------------
+# Common data file types
+*.csv
+*.tsv
+*.data
+*.dat
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.json
+*.pickle
+*.pkl
+*.npz
+*.npy
+
+# Large raw data folders
+data/
+datasets/
+input/
+outputs/
+results/
+logs/
+
+# ----------------------------
+# 5️⃣ Model Files / Weights / Checkpoints
+# ----------------------------
+*.ckpt
+*.ckpt.*
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.sav
+*.model
+*.h5
+*.tflite
+*.pb
+
+# ----------------------------
+# 6️⃣ IDE & Editor Settings
+# ----------------------------
+# VSCode
+.vscode/
+.history/
+.settings/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# ----------------------------
+# 7️⃣ System Logs / Temp Files
+# ----------------------------
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# ----------------------------
+# 8️⃣ Configuration & Secrets
+# ----------------------------
+# Never push credentials or API keys
+*.env
+.env.*
+*.ini
+*.cfg
+config.yaml
+config.yml
+credentials.json
+secret_*.json
+token.json
+
+# ----------------------------
+# 9️⃣ Miscellaneous
+# ----------------------------
+# Ignore compiled docs or reports
+docs/_build/
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# ----------------------------
+# ✅ Exceptions (Keep these tracked)
+# ----------------------------
+!README.md
+!LICENSE
+!requirements.txt
+!*.ipynb
+!*.md

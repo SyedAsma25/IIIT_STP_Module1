@@ -184,11 +184,6 @@ pip install numpy matplotlib scikit-learn scikit-image keras seaborn
 
 
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/SyedAsma25/IIIT-STP-Module1?style=for-the-badge&logo=github&color=blue" alt="Last Commit">
-  <img src="https://img.shields.io/github/repo-size/SyedAsma25/IIIT-STP-Module1?style=for-the-badge&logo=files&color=teal" alt="Repo Size">
-</p>
-
 
 <p align="center">
  💡 <b>"Transform data wisely, visualize results clearly, and learn continuously."</b>
